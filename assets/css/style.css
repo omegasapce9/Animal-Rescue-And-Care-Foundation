@@ -1,24 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
-:root {
-
-  /**
-   * colors
-   */
 
   --bright-yellow-crayola: hsl(40, 100%, 50%);
   --medium-turquoise: hsl(172, 48%, 59%);
@@ -42,9 +22,7 @@
   --black: hsl(0, 0%, 0%);
   --jet: hsl(0, 0%, 18%);
 
-  /**
-   * typography
-   */
+ 
 
   --ff-oswald: 'Oswald', sans-serif;
   --ff-inter: 'Inter', sans-serif;
@@ -66,21 +44,12 @@
   --fw-600: 600;
   --fw-700: 700;
 
-  /**
-   * spacing
-   */
 
   --section-padding: 80px;
 
-  /**
-   * shadow
-   */
-
   --card-shadow: 0 5px 20px -8px hsla(0, 0%, 0%, 0.15);
 
-  /**
-   * transition
-   */
+ 
 
   --transition-1: 0.05s ease;
   --transition-2: 0.25s ease;
@@ -93,9 +62,6 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *,
 *::before,
