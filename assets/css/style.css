@@ -1,24 +1,7 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
-  /**
-   * colors
-   */
+  
 
   --bright-yellow-crayola: hsl(40, 100%, 50%);
   --medium-turquoise: hsl(172, 48%, 59%);
@@ -42,9 +25,7 @@
   --black: hsl(0, 0%, 0%);
   --jet: hsl(0, 0%, 18%);
 
-  /**
-   * typography
-   */
+ 
 
   --ff-oswald: 'Oswald', sans-serif;
   --ff-inter: 'Inter', sans-serif;
@@ -66,22 +47,13 @@
   --fw-600: 600;
   --fw-700: 700;
 
-  /**
-   * spacing
-   */
-
+  
   --section-padding: 80px;
 
-  /**
-   * shadow
-   */
 
   --card-shadow: 0 5px 20px -8px hsla(0, 0%, 0%, 0.15);
 
-  /**
-   * transition
-   */
-
+ 
   --transition-1: 0.05s ease;
   --transition-2: 0.25s ease;
   --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
@@ -93,9 +65,7 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+
 
 *,
 *::before,
@@ -164,9 +134,7 @@ body {
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+
 
 .container { padding-inline: 15px; }
 
@@ -258,9 +226,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
 
 .lang-switch,
 .header-action { display: none; }
@@ -384,9 +349,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
 
 .hero {
   background-color: var(--eerie-black-1);
@@ -421,9 +383,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #FEATURES
-\*-----------------------------------*/
 
 .features {
   padding-block-start: 0;
@@ -460,10 +419,6 @@ body {
 
 
 
-
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
 
 .about { padding-block-start: 120px; }
 
@@ -547,9 +502,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #CTA
-\*-----------------------------------*/
 
 .cta-content {
   background-color: var(--pistachio);
@@ -574,9 +526,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #SERVICE
-\*-----------------------------------*/
 
 .service {
   background-color: var(--baby-powder);
@@ -637,10 +586,6 @@ body {
 
 
 
-
-/*-----------------------------------*\
-  #DONATE
-\*-----------------------------------*/
 
 .donate-list {
   display: grid;
@@ -725,9 +670,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #TESTIMONIALS
-\*-----------------------------------*/
 
 .testi { background-color: var(--jet); }
 
@@ -763,10 +705,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #PARTNER
-\*-----------------------------------*/
-
 .partner { background-color: var(--baby-powder); }
 
 .partner .container {
@@ -786,10 +724,6 @@ body {
 
 
 
-
-/*-----------------------------------*\
-  #EVENT
-\*-----------------------------------*/
 
 .event { padding-block-end: 120px; }
 
@@ -855,10 +789,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #INSTA POST
-\*-----------------------------------*/
-
 .insta-post-link {
   position: relative;
   background-color: var(--eerie-black-1);
@@ -901,10 +831,6 @@ body {
 
 
 
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
 
 .footer {
   background-color: var(--raisin-black);
@@ -953,9 +879,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
 
 /**
  * responsive for larger than 450px screen
@@ -991,9 +914,7 @@ body {
 
 
 
-/**
- * responsive for larger than 580px screen
- */
+
 
 @media (min-width: 580px) {
 
@@ -1013,9 +934,7 @@ body {
 
 
 
-  /**
-   * DONATE
-   */
+
 
   .donate-card {
     position: relative;
@@ -1036,9 +955,7 @@ body {
 
 
 
-  /**
-   * EVENT
-   */
+
 
   .event-card {
     display: flex;
@@ -1055,10 +972,7 @@ body {
 
 
 
-  /**
-   * INSTA POST
-   */
-
+  
   .insta-post-item { min-width: 45%; }
 
 }
@@ -1067,24 +981,17 @@ body {
 
 
 
-/**
- * responsive for larger than 768px screen
- */
 
 @media (min-width: 768px) {
 
-  /**
-   * FEATURES, SERVICE
-   */
+
 
   .features-list,
   .service-list { grid-template-columns: 1fr 1fr; }
 
 
 
-  /**
-   * ABOUT
-   */
+
 
   .banner-row {
     display: flex;
@@ -1102,10 +1009,6 @@ body {
 
 
 
-  /**
-   * TESTIMONIALS
-   */
-
   .testi-card {
     display: flex;
     align-items: flex-start;
@@ -1116,17 +1019,13 @@ body {
 
 
 
-  /**
-   * INSTA POST
-   */
+ 
 
   .insta-post-item { min-width: 32%; }
 
 
 
-  /**
-   * FOOTER
-   */
+ 
 
   .footer .container {
     display: flex;
@@ -1147,10 +1046,6 @@ body {
 
 
 
-/**
- * responsive for larger than 992px screen
- */
-
 @media (min-width: 992px) {
 
   /**
@@ -1169,9 +1064,7 @@ body {
 
 
 
-  /**
-   * HEADER
-   */
+  
 
   .header { transition: var(--transition-2); }
 
@@ -1190,9 +1083,6 @@ body {
 
 
 
-  /**
-   * HERO
-   */
 
   .hero {
     background-image: url("../images/hero.jpg");
@@ -1204,20 +1094,14 @@ body {
 
 
 
-  /**
-   * FEATURES
-   */
-
+  
   .features { padding-block-start: var(--section-padding); }
 
   .features-list { grid-template-columns: repeat(4, 1fr); }
 
 
 
-  /**
-   * ABOUT
-   */
-
+ 
   .banner-col { width: 50%; }
 
   .about-img { max-width: 100%; }
@@ -1240,9 +1124,6 @@ body {
 
 
 
-  /**
-   * CTA
-   */
 
   .cta .container {
     display: grid;
@@ -1256,17 +1137,10 @@ body {
 
 
 
-  /**
-   * SERVICE
-   */
-
   .service-list { grid-template-columns: repeat(4, 1fr); }
 
 
 
-  /**
-   * DONATE
-   */
 
   .donate-list {
     grid-template-columns: 1fr 1fr;
@@ -1275,9 +1149,7 @@ body {
 
 
 
-  /**
-   * TESTIMONIALS
-   */
+
 
   .testi {
     display: grid;
@@ -1286,11 +1158,6 @@ body {
 
   .testi-content { padding-inline: 30px 50px; }
 
-
-
-  /**
-   * EVENT
-   */
 
   .event-card .wrapper {
     display: flex;
@@ -1303,9 +1170,6 @@ body {
 
 
 
-  /**
-   * INSTA POST
-   */
 
   .insta-post-item { min-width: 24%; }
 
@@ -1315,21 +1179,13 @@ body {
 
 
 
-/**
- * responsive for larger than 1200px screen
- */
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
 
   :root {
 
-    /**
-     * typography
-     */
+    
 
     --fs-3: 4.4rem;
 
@@ -1337,9 +1193,7 @@ body {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+
 
   .container {
     max-width: 1400px;
@@ -1352,9 +1206,7 @@ body {
 
 
 
-  /**
-   * HEADER
-   */
+ 
 
   .nav-open-btn,
   .nav-close-btn,
@@ -1400,10 +1252,6 @@ body {
 
 
 
-  /**
-   * HERO
-   */
-
   .hero {
     padding-block: 200px 325px;
     background-position: center;
@@ -1411,9 +1259,6 @@ body {
 
 
 
-  /**
-   * FEATURES
-   */
 
   .features {
     padding-block-start: 0;
@@ -1423,17 +1268,12 @@ body {
 
 
 
-  /**
-   * ABOUT
-   */
 
   .deco-img { left: -35px; }
 
 
 
-  /**
-   * DONATE
-   */
+
 
   .donate-card { padding-inline-end: 120px; }
 
@@ -1441,25 +1281,18 @@ body {
 
 
 
-  /**
-   * PARTNER
-   */
+  
 
   .partner .container { justify-content: space-evenly; }
 
 
 
-  /**
-   * INSTA POST
-   */
 
   .insta-post-item { min-width: 20%; }
 
 
 
-  /**
-   * FOOTER
-   */
+
 
   .footer .container {
     margin-inline: 30px;
