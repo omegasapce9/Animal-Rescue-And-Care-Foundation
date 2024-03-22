@@ -785,6 +785,72 @@ body {
 
 .event .btn-secondary { margin-inline: auto; }
 
+/* Countdown Style Start */
+.countdown-section {
+  padding: 60px 0;
+  background: url("../image/countdown-img.avif") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  content-visibility: auto;
+  color: #fff;
+}
+
+.countdown-section::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.container-countdown {
+  position: relative;
+}
+.countdown-section .section-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+.countdown-section .sub-heading {
+  font-size: 55px;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+}
+
+.countdown-timer-item {
+  margin: 0 20px;
+  text-align: center;
+  padding: 5px 25px;
+  border: 1px solid var(--white);
+  border-radius: 8px;
+}
+
+.countdown-timer-value {
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--primaryColor);
+  -webkit-text-stroke: 1px #ccc;
+}
+
+.countdown-timer-label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--white);
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: var(--primaryColor);
+}
+
+/* Countdown Style End */
+
 
 
 
